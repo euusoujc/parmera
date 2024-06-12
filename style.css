@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+body {
+    background: url(assets/bg.svg);
+    backdrop-filter: blur(4px);
+    
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    box-sizing: border-box;
+.icon {
+   padding: 16px;
+}
+
+.links {
+   display: flex;
+   align-items: left;
+   justify-content:left;
+   gap: 16px;
+   padding: 10px 0;
+   font-size: 16px;
+   transition: background 0.2s ;
+   border-radius: 50%;  
+}
+
+.links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+
+}
+
+main h1 {
+    text-align: center;
+    font-family: Righteous;
+    color: white;
+    font-weight: 500;
+}
+
+
+.shield {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    
+}
